@@ -1,4 +1,4 @@
-class Breakfast():
+class Breakfast:
 
     def __init__(self, items):
         self.items = items
@@ -14,5 +14,3 @@ class Breakfast():
         for i in self.items:
             print('{item} is a part of a complete and balanced breakfast.'.format(item=i.name))
 
-if __name__ =='__main__':
-    pass

@@ -7,3 +7,6 @@ install:
 
 test:
 	nosetests tests
+
+build:
+	python setup.py sdist
