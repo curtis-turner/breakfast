@@ -1,3 +1,9 @@
+=============
+Build Status
+=============
+.. image:: https://travis-ci.com/curtis-turner/breakfast.svg?branch=master
+    :target: https://travis-ci.com/curtis-turner/breakfast
+
 ==========
 Breakfast
 ==========
