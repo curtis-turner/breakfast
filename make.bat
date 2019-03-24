@@ -1,6 +1,6 @@
 @echo off
 
-REM Command file for 
+REM Command file for Windows
 
 if "%1" == "init" (
     python3 -m venv venv
