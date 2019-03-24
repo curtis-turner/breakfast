@@ -6,7 +6,7 @@ install:
 	pip install -r requirements.txt 
 
 test:
-	nosetests tests
+	python -m unittest tests/test_breakfast.py
 
 build:
 	python setup.py sdist
