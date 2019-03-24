@@ -1,5 +1,5 @@
 import unittest
-#from context import breakfast
+
 import breakfast
 
 class TestBreakfast(unittest.TestCase):
@@ -29,20 +29,3 @@ class TestBreakfast(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main
-
-'''
-def test_breakfast():
-    items = []
-
-    bacon = breakfast.food.Food(43, 'Bacon')
-    apple = breakfast.food.Food(95, 'Apple')
-
-    items.append(bacon)
-    items.append(apple)
-
-    meal = breakfast.breakfast.Breakfast(items)
-
-    meal.complete_breakfast()
-    
-    print('Total Calories of your breakfast: {cals}'.format(cals=str(meal.count_cals())))
-'''
