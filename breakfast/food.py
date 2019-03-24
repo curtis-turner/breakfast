@@ -6,7 +6,9 @@ class Food:
         self.name = name
 
     def add_name(self, name):
-        self.name = name
+        if self.name == None:
+            self.name = name
     
     def add_cals(self, cals):
-        self.cals = cals
+        if self.cals == 0:
+            self.cals = cals
