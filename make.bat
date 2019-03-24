@@ -10,3 +10,7 @@ if "%1" == "init" (
 if "%1" == "install" (
     pip install -r requirements.txt
 )
+
+if "%1" == "test" (
+    python -m unittest test/test_breakfast.py
+)
