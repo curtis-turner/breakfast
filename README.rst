@@ -24,7 +24,3 @@ Usage
 =======
 
 Example usage can be seen in this simple be seen in the example below
-
-.. mdinclude :: example.md
-
-.
