@@ -24,7 +24,7 @@ class Breakfast:
     def complete_breakfast(self):
         if len(self.items) > 0:
             for i in self.items:
-                print('{item} is a part of a complete and balanced breakfast.'.format(item=i.name))
+                print(f'{i.name} is a part of a balanced breakfast.')
         else:
             print('You did not eat anything for breakfast. Go get some food.')
 
